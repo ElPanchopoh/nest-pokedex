@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # nest-pokedex
 Este es el repositorio para estudiar nest
 =======
@@ -21,8 +21,21 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo ```.env.template.``` y renombrar la pia a ```.env```
+
+6. Llenar las variables de entorno definidas en el ```.env```
+
+7. Ejecutar aplicacion en dev:
+
+```
+yarn start:dev
+```
+8. Reconstruir la base de datos con la semilla
+```
+localhost:3000/api/v2/seed 
+```
 
 ## Stack Usado
 * MongoDB
 * Nest 
->>>>>>> 32ed451 (Fin seccion 7)
+
